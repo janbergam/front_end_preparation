@@ -1,0 +1,86 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+  .about-content-wrapper {
+    margin: 0;
+    padding: 0px 0px;
+  }
+  .about-content-wrapper > .about-video {
+    padding: 0px 0px;
+  }
+  .about-content-wrapper iframe {
+    width: 100vw;
+  }
+  
+
+}
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .nav-wrapper {
+    flex-direction: column; 
+    background-color: rgb(29,39,49);
+    padding-bottom: 8px;
+  }
+  
+  .nav-wrapper > .nav-left-column {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+  }
+  
+  .nav-wrapper > .nav-left-column a img {
+    height: 34px;
+    width: auto;
+    padding-top: 8px;
+    padding-left: 15px;
+  }
+  
+  .nav-wrapper > .nav-left-column > .navbar-toggle {
+    display: flex;
+    align-content: center;
+    color: #FFF;
+    padding-right: 15px;  
+    cursor: pointer;
+  }
+  
+  .nav-wrapper > .nav-center-column {
+    flex-direction: column;
+  }
+  
+  .nav-wrapper > .nav-center-column .nav-link, 
+  .nav-wrapper > .nav-right-column {
+    padding-bottom: 10px;
+    justify-content: center;
+  
+  }
+   
+  .nav-wrapper > .nav-center-column .nav-link a {
+  
+  }
+  
+  .nav-right-column > .nav-link a  {
+    margin: 0 0;
+
+  }
+  /***** about section *************************/
+  .about > .about-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-content-wrapper > .about-video {
+    padding 0px 0px;
+  }
+  .about-content-wrapper > .about-text p {
+  padding: 10px 15px;
+  }
+  
+  .about-content-wrapper iframe {
+    width: 70vw;
+  }
+}
+  
+
